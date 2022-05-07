@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dbconnect": "^0.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mocha": "^10.0.0",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.0"
+  }
+}
